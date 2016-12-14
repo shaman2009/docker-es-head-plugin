@@ -1,5 +1,7 @@
 FROM node:7.2.1
 
+MAINTAINER Shaman <wow2009zfx@gmail.com>
+
 RUN mkdir -p /var/head &&\
     PHANTOMJS_CDNURL=https://npm.taobao.org/dist/phantomjs npm install -g phantomjs --registry=https://registry.npm.taobao.org --no-proxy
 
